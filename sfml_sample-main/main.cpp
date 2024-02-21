@@ -5,16 +5,10 @@
 
 
 
-
-
-
-
-
-
 int main()
 {
     srand(time(0));
-    gp::Game game(1280, 1024, "LABA3");
+    gp::Game game(1280, 760, "LABA3");
     game.Setup();
     game.GAME();
 
