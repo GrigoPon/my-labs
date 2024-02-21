@@ -1,6 +1,7 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 
+
 namespace gp {
 	class Circle {
 		float g_x;
@@ -48,12 +49,23 @@ namespace gp {
 		//}
 
 		
-		void MoveC(float t) {
+		void MoveC(float t, float width, float height) {
 			
 			float vx = g_v * cos(g_alfa);
 			float vy = g_v * sin(g_alfa);
-			g_x += vx * t;
-			g_y += vy * t;
+			if (vx * t > width - g_x - g_r)
+				g_x = width - g_r;
+			else if (vx * t < -g_x + g_r)
+				g_x = g_r;
+			else
+				g_x += vx * t;
+
+			if (vy * t > height - g_y - g_r)
+				g_y = height - g_r;
+			else if (vy * t < -g_y + g_r)
+				g_y = g_r;
+			else
+				g_y += vy * t;
 			//g_alfa += t;
 			circle.setPosition(g_x, g_y);
 		}

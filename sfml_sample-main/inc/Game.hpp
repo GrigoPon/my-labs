@@ -30,9 +30,9 @@ namespace gp {
         Game() = default;
         void Setup() {
             window.create(sf::VideoMode(width, height), name);
-            fig1.Stup(600, 500, 100, 100, 4.25, 255, 0, 0);
+            fig1.Stup(600, 500, 100, 10000, 4.25, 255, 0, 0);
             fig2.SetupT(300, 400, 80, 4, 150);
-            fig3.SetupS(800, 500, 120, 80, 3.8);
+            fig3.SetupS(1000, 500, 120, 273, 3.6);
             
         }
 
@@ -81,7 +81,7 @@ namespace gp {
 
 
         void GAME() {
-            sf::Clock clock;
+
             
             window.clear();
             window.draw(fig1.Get());
@@ -90,6 +90,7 @@ namespace gp {
             window.display();
             this_thread::sleep_for(chrono::seconds(1));
 
+            sf::Clock clock;
             sf::Clock timer;
 
             while (window.isOpen())
@@ -113,17 +114,13 @@ namespace gp {
                 }
                 float t = clock.getElapsedTime().asSeconds();
                 clock.restart();
-                fig1.MoveC(t);
+                fig1.MoveC(t, 1280, 760);
                 fig2.MoveT(t);
                 fig3.MoveS(t);
-                
-                    
+              
                 TouchBorderC(fig1);
                 TouchBorderT(fig2);
                 TouchBorderS(fig3);
-
-
-
 
                 window.clear();
                 window.draw(fig1.Get());
