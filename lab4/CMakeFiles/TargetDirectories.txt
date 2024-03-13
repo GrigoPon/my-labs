@@ -1,0 +1,3 @@
+C:/Users/student24/Desktop/lab4/CMakeFiles/sfml_sample.dir
+C:/Users/student24/Desktop/lab4/CMakeFiles/ALL_BUILD.dir
+C:/Users/student24/Desktop/lab4/CMakeFiles/ZERO_CHECK.dir
