@@ -1,0 +1,4 @@
+﻿  lab5_24.cpp
+C:\Users\student24\source\repos\lab5_24\lab5_24\lab5_24.cpp(7,10): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\student24\source\repos\lab5_24\lab5_24\lab5_24.cpp(51): warning C4172: возвращение адреса локальной или временной переменной : temp
+  lab5_24.vcxproj -> C:\Users\student24\source\repos\lab5_24\x64\Debug\lab5_24.exe
