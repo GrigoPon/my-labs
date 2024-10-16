@@ -60,13 +60,9 @@ void SelSort(double* A, int n)
 	{
 		for (int j = 1; j < n; j++)
 		{
-			if (A[i] > A[j])
-			{
-				if (A[j] > A[j + 1])
-				{
-					x = A[j + 1];
-				}
-			}
+			if (A[i] > A[j] && A[j] > A[j + 1])
+				x = A[j + 1];
+
 			swap(A[i], x);
 		}
 	}
