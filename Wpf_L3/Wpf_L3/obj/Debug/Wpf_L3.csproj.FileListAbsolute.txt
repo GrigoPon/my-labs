@@ -1,0 +1,15 @@
+C:\Users\ponya\source\repos\Wpf_L3\Wpf_L3\bin\Debug\Wpf_L3.exe.config
+C:\Users\ponya\source\repos\Wpf_L3\Wpf_L3\bin\Debug\Wpf_L3.exe
+C:\Users\ponya\source\repos\Wpf_L3\Wpf_L3\bin\Debug\Wpf_L3.pdb
+C:\Users\ponya\source\repos\Wpf_L3\Wpf_L3\obj\Debug\Wpf_L3.csproj.AssemblyReference.cache
+C:\Users\ponya\source\repos\Wpf_L3\Wpf_L3\obj\Debug\MainWindow.g.cs
+C:\Users\ponya\source\repos\Wpf_L3\Wpf_L3\obj\Debug\App.g.cs
+C:\Users\ponya\source\repos\Wpf_L3\Wpf_L3\obj\Debug\Wpf_L3_MarkupCompile.cache
+C:\Users\ponya\source\repos\Wpf_L3\Wpf_L3\obj\Debug\Wpf_L3_MarkupCompile.lref
+C:\Users\ponya\source\repos\Wpf_L3\Wpf_L3\obj\Debug\MainWindow.baml
+C:\Users\ponya\source\repos\Wpf_L3\Wpf_L3\obj\Debug\Wpf_L3.g.resources
+C:\Users\ponya\source\repos\Wpf_L3\Wpf_L3\obj\Debug\Wpf_L3.Properties.Resources.resources
+C:\Users\ponya\source\repos\Wpf_L3\Wpf_L3\obj\Debug\Wpf_L3.csproj.GenerateResource.cache
+C:\Users\ponya\source\repos\Wpf_L3\Wpf_L3\obj\Debug\Wpf_L3.csproj.CoreCompileInputs.cache
+C:\Users\ponya\source\repos\Wpf_L3\Wpf_L3\obj\Debug\Wpf_L3.exe
+C:\Users\ponya\source\repos\Wpf_L3\Wpf_L3\obj\Debug\Wpf_L3.pdb
