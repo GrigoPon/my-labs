@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ponya\\source\\repos\\Wpf_L4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77EFCAA5-646F-477B-ADA5-487D928452E0}|Wpf_L4\\Wpf_L4.csproj|c:\\users\\ponya\\source\\repos\\wpf_l4\\wpf_l4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77EFCAA5-646F-477B-ADA5-487D928452E0}|Wpf_L4\\Wpf_L4.csproj|solutionrelative:wpf_l4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77EFCAA5-646F-477B-ADA5-487D928452E0}|Wpf_L4\\Wpf_L4.csproj|c:\\users\\ponya\\source\\repos\\wpf_l4\\wpf_l4\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{77EFCAA5-646F-477B-ADA5-487D928452E0}|Wpf_L4\\Wpf_L4.csproj|solutionrelative:wpf_l4\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77EFCAA5-646F-477B-ADA5-487D928452E0}|Wpf_L4\\Wpf_L4.csproj|c:\\users\\ponya\\source\\repos\\wpf_l4\\wpf_l4\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{77EFCAA5-646F-477B-ADA5-487D928452E0}|Wpf_L4\\Wpf_L4.csproj|solutionrelative:wpf_l4\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\ponya\\source\\repos\\Wpf_L4\\Wpf_L4\\App.xaml",
+              "RelativeDocumentMoniker": "Wpf_L4\\App.xaml",
+              "ToolTip": "C:\\Users\\ponya\\source\\repos\\Wpf_L4\\Wpf_L4\\App.xaml",
+              "RelativeToolTip": "Wpf_L4\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-25T16:27:45.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ponya\\source\\repos\\Wpf_L4\\Wpf_L4\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Wpf_L4\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ponya\\source\\repos\\Wpf_L4\\Wpf_L4\\MainWindow.xaml",
+              "RelativeToolTip": "Wpf_L4\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-25T14:04:17.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ponya\\source\\repos\\Wpf_L4\\Wpf_L4\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Wpf_L4\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ponya\\source\\repos\\Wpf_L4\\Wpf_L4\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Wpf_L4\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAwGAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T14:04:13.358Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
