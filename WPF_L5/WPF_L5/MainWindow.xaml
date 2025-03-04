@@ -1,0 +1,46 @@
+﻿<Window x:Class="WPF_L5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_L5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    
+    <Grid>
+        <GroupBox x:Name="GroupFont" HorizontalAlignment="Left" Height="115" Header="Настройки&#xD;&#xA;шрифта" Margin="218,126,0,0" VerticalAlignment="Top" Width="168" FontSize="16">
+            <StackPanel Height="67" Orientation="Vertical" Margin="0,10,0,0">
+                <CheckBox x:Name="it_check">
+                    <TextBlock x:Name="italic_check" FontSize="14">
+                        <Italic>курсив</Italic>
+                    </TextBlock>
+                </CheckBox>
+                <CheckBox x:Name="b_check">
+                    <TextBlock x:Name="bold_check" FontSize="14">
+                        <Bold>выделенный</Bold>
+                    </TextBlock>
+                </CheckBox>
+                <CheckBox x:Name="u_check">
+                    <TextBlock x:Name="underline_check" FontSize="14">
+                        <Underline>подчеркнутый</Underline>
+                    </TextBlock>
+                </CheckBox>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox x:Name="GroupReg" HorizontalAlignment="Left" Height="115" Header="Настройки&#xD;&#xA;регистра" Margin="414,126,0,0" VerticalAlignment="Top" Width="168" FontSize="16">
+            <StackPanel Margin="0,10,0,0">
+                <RadioButton x:Name="lower" Content="абв" FontSize="14" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Center" Padding="4,-1,30,0" Margin="20,0,0,10" GroupName="TextCase" Checked="reg_checked"/>
+                <RadioButton x:Name="upper" Content="АБВ" FontSize="14" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Center" Padding="4,-1,30,0" Margin="20,0,0,0" GroupName="TextCase" Checked="reg_checked"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox x:Name="Group_up" HorizontalAlignment="Center" Height="87" Header="Выбор обновления" Margin="0,265,0,0" VerticalAlignment="Top" Width="364" FontSize="16">
+            <StackPanel Orientation="Horizontal">
+                <RadioButton x:Name="now_check" Content="сразу" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14" IsChecked="True"/>
+                <RadioButton x:Name="button_check" Content="по нажатию" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="15,0,0,0" FontSize="14" Checked="button_check_Checked" Unchecked="button_check_Unchecked"/>
+                <Button x:Name="upd" Content="обновить" Width="124" Height="27" VerticalAlignment="Center" Margin="20,0,0,0" HorizontalAlignment="Center" FontSize="14" Click="UpdateButton_Click" IsEnabled="False"/>
+            </StackPanel>
+        </GroupBox>
+        <TextBlock x:Name="checker" HorizontalAlignment="Center" Margin="0,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontStyle="Normal" FontSize="24" Language="ru-ru" Text="Текст для проверки настроек"></TextBlock>
+
+    </Grid>
+</Window>
