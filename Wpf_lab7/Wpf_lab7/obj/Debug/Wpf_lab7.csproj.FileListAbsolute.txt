@@ -1,0 +1,15 @@
+C:\Users\ponya\source\repos\Wpf_lab7\Wpf_lab7\bin\Debug\Wpf_lab7.exe.config
+C:\Users\ponya\source\repos\Wpf_lab7\Wpf_lab7\bin\Debug\Wpf_lab7.exe
+C:\Users\ponya\source\repos\Wpf_lab7\Wpf_lab7\bin\Debug\Wpf_lab7.pdb
+C:\Users\ponya\source\repos\Wpf_lab7\Wpf_lab7\obj\Debug\Wpf_lab7.csproj.AssemblyReference.cache
+C:\Users\ponya\source\repos\Wpf_lab7\Wpf_lab7\obj\Debug\MainWindow.g.cs
+C:\Users\ponya\source\repos\Wpf_lab7\Wpf_lab7\obj\Debug\App.g.cs
+C:\Users\ponya\source\repos\Wpf_lab7\Wpf_lab7\obj\Debug\Wpf_lab7_MarkupCompile.cache
+C:\Users\ponya\source\repos\Wpf_lab7\Wpf_lab7\obj\Debug\Wpf_lab7_MarkupCompile.lref
+C:\Users\ponya\source\repos\Wpf_lab7\Wpf_lab7\obj\Debug\MainWindow.baml
+C:\Users\ponya\source\repos\Wpf_lab7\Wpf_lab7\obj\Debug\Wpf_lab7.g.resources
+C:\Users\ponya\source\repos\Wpf_lab7\Wpf_lab7\obj\Debug\Wpf_lab7.Properties.Resources.resources
+C:\Users\ponya\source\repos\Wpf_lab7\Wpf_lab7\obj\Debug\Wpf_lab7.csproj.GenerateResource.cache
+C:\Users\ponya\source\repos\Wpf_lab7\Wpf_lab7\obj\Debug\Wpf_lab7.csproj.CoreCompileInputs.cache
+C:\Users\ponya\source\repos\Wpf_lab7\Wpf_lab7\obj\Debug\Wpf_lab7.exe
+C:\Users\ponya\source\repos\Wpf_lab7\Wpf_lab7\obj\Debug\Wpf_lab7.pdb
