@@ -1,0 +1,14 @@
+﻿<Window x:Class="WPF_L8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_L8"
+        mc:Ignorable="d"
+        Title="Поняев Л8" Height="720" Width="1280">
+    <Grid>
+        <Canvas x:Name="Game" Background="LightGray" Margin="384,101,10,114"> </Canvas>
+        <Button x:Name="Start" Content="Начать игру" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10" Padding="10,5" Click="Start_Click"/>
+        <TextBlock x:Name="Win" Text="Поздравляем! Вы победили!" Visibility="Collapsed" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Green" />
+    </Grid>
+</Window>
