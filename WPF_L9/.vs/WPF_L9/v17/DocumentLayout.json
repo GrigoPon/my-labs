@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ponya\\source\\repos\\WPF_L9\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{83377F38-C7D2-4290-9CB8-B278B8A77C75}|L9_Table\\L9_Table.csproj|c:\\users\\ponya\\source\\repos\\wpf_l9\\l9_table\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83377F38-C7D2-4290-9CB8-B278B8A77C75}|L9_Table\\L9_Table.csproj|solutionrelative:l9_table\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83377F38-C7D2-4290-9CB8-B278B8A77C75}|L9_Table\\L9_Table.csproj|c:\\users\\ponya\\source\\repos\\wpf_l9\\l9_table\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83377F38-C7D2-4290-9CB8-B278B8A77C75}|L9_Table\\L9_Table.csproj|solutionrelative:l9_table\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83377F38-C7D2-4290-9CB8-B278B8A77C75}|L9_Table\\L9_Table.csproj|c:\\users\\ponya\\source\\repos\\wpf_l9\\l9_table\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83377F38-C7D2-4290-9CB8-B278B8A77C75}|L9_Table\\L9_Table.csproj|solutionrelative:l9_table\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97A417AF-D6D5-4D0E-83B7-3D44A10084E4}|WPF_L9\\WPF_L9.csproj|c:\\users\\ponya\\source\\repos\\wpf_l9\\wpf_l9\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{97A417AF-D6D5-4D0E-83B7-3D44A10084E4}|WPF_L9\\WPF_L9.csproj|solutionrelative:wpf_l9\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97A417AF-D6D5-4D0E-83B7-3D44A10084E4}|WPF_L9\\WPF_L9.csproj|c:\\users\\ponya\\source\\repos\\wpf_l9\\wpf_l9\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97A417AF-D6D5-4D0E-83B7-3D44A10084E4}|WPF_L9\\WPF_L9.csproj|solutionrelative:wpf_l9\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83377F38-C7D2-4290-9CB8-B278B8A77C75}|L9_Table\\L9_Table.csproj|c:\\users\\ponya\\source\\repos\\wpf_l9\\l9_table\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{83377F38-C7D2-4290-9CB8-B278B8A77C75}|L9_Table\\L9_Table.csproj|solutionrelative:l9_table\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83377F38-C7D2-4290-9CB8-B278B8A77C75}|L9_Table\\L9_Table.csproj|c:\\users\\ponya\\source\\repos\\wpf_l9\\l9_table\\cities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83377F38-C7D2-4290-9CB8-B278B8A77C75}|L9_Table\\L9_Table.csproj|solutionrelative:l9_table\\cities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cities.cs",
+              "DocumentMoniker": "C:\\Users\\ponya\\source\\repos\\WPF_L9\\L9_Table\\Cities.cs",
+              "RelativeDocumentMoniker": "L9_Table\\Cities.cs",
+              "ToolTip": "C:\\Users\\ponya\\source\\repos\\WPF_L9\\L9_Table\\Cities.cs",
+              "RelativeToolTip": "L9_Table\\Cities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T15:00:10.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\ponya\\source\\repos\\WPF_L9\\L9_Table\\Student.cs",
+              "RelativeDocumentMoniker": "L9_Table\\Student.cs",
+              "ToolTip": "C:\\Users\\ponya\\source\\repos\\WPF_L9\\L9_Table\\Student.cs",
+              "RelativeToolTip": "L9_Table\\Student.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T14:23:18.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataManager.cs",
+              "DocumentMoniker": "C:\\Users\\ponya\\source\\repos\\WPF_L9\\L9_Table\\DataManager.cs",
+              "RelativeDocumentMoniker": "L9_Table\\DataManager.cs",
+              "ToolTip": "C:\\Users\\ponya\\source\\repos\\WPF_L9\\L9_Table\\DataManager.cs",
+              "RelativeToolTip": "L9_Table\\DataManager.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAE4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T14:21:44.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ponya\\source\\repos\\WPF_L9\\L9_Table\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "L9_Table\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ponya\\source\\repos\\WPF_L9\\L9_Table\\MainWindow.xaml",
+              "RelativeToolTip": "L9_Table\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-15T14:17:25.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ponya\\source\\repos\\WPF_L9\\L9_Table\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "L9_Table\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ponya\\source\\repos\\WPF_L9\\L9_Table\\MainWindow.xaml.cs",
+              "RelativeToolTip": "L9_Table\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAmwDIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T14:17:25.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ponya\\source\\repos\\WPF_L9\\WPF_L9\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WPF_L9\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ponya\\source\\repos\\WPF_L9\\WPF_L9\\MainWindow.xaml",
+              "RelativeToolTip": "WPF_L9\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-15T13:39:23.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ponya\\source\\repos\\WPF_L9\\WPF_L9\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPF_L9\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ponya\\source\\repos\\WPF_L9\\WPF_L9\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WPF_L9\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAEYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T13:39:22.897Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

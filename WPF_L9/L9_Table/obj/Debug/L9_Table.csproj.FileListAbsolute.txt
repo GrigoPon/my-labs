@@ -1,0 +1,15 @@
+C:\Users\ponya\source\repos\WPF_L9\L9_Table\bin\Debug\L9_Table.exe.config
+C:\Users\ponya\source\repos\WPF_L9\L9_Table\bin\Debug\L9_Table.exe
+C:\Users\ponya\source\repos\WPF_L9\L9_Table\bin\Debug\L9_Table.pdb
+C:\Users\ponya\source\repos\WPF_L9\L9_Table\obj\Debug\L9_Table.csproj.AssemblyReference.cache
+C:\Users\ponya\source\repos\WPF_L9\L9_Table\obj\Debug\MainWindow.g.cs
+C:\Users\ponya\source\repos\WPF_L9\L9_Table\obj\Debug\App.g.cs
+C:\Users\ponya\source\repos\WPF_L9\L9_Table\obj\Debug\L9_Table_MarkupCompile.cache
+C:\Users\ponya\source\repos\WPF_L9\L9_Table\obj\Debug\L9_Table_MarkupCompile.lref
+C:\Users\ponya\source\repos\WPF_L9\L9_Table\obj\Debug\MainWindow.baml
+C:\Users\ponya\source\repos\WPF_L9\L9_Table\obj\Debug\L9_Table.g.resources
+C:\Users\ponya\source\repos\WPF_L9\L9_Table\obj\Debug\L9_Table.Properties.Resources.resources
+C:\Users\ponya\source\repos\WPF_L9\L9_Table\obj\Debug\L9_Table.csproj.GenerateResource.cache
+C:\Users\ponya\source\repos\WPF_L9\L9_Table\obj\Debug\L9_Table.csproj.CoreCompileInputs.cache
+C:\Users\ponya\source\repos\WPF_L9\L9_Table\obj\Debug\L9_Table.exe
+C:\Users\ponya\source\repos\WPF_L9\L9_Table\obj\Debug\L9_Table.pdb
