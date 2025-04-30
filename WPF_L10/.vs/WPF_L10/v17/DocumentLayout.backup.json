@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ponya\\source\\repos\\WPF_L10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8BCC492B-DA0B-4DA6-AAFC-4CBDE5A0A008}|WPF_L10.1\\WPF_L10.1.csproj|c:\\users\\ponya\\source\\repos\\wpf_l10\\wpf_l10.1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8BCC492B-DA0B-4DA6-AAFC-4CBDE5A0A008}|WPF_L10.1\\WPF_L10.1.csproj|solutionrelative:wpf_l10.1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1289529A-3728-43DC-9201-910E1C5DF692}|WPF_L10\\WPF_L10.csproj|C:\\Users\\ponya\\source\\repos\\WPF_L10\\wpf_l10\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1289529A-3728-43DC-9201-910E1C5DF692}|WPF_L10\\WPF_L10.csproj|solutionrelative:wpf_l10\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BCC492B-DA0B-4DA6-AAFC-4CBDE5A0A008}|WPF_L10.1\\WPF_L10.1.csproj|C:\\Users\\ponya\\source\\repos\\WPF_L10\\wpf_l10.1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BCC492B-DA0B-4DA6-AAFC-4CBDE5A0A008}|WPF_L10.1\\WPF_L10.1.csproj|solutionrelative:wpf_l10.1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1289529A-3728-43DC-9201-910E1C5DF692}|WPF_L10\\WPF_L10.csproj|C:\\Users\\ponya\\source\\repos\\WPF_L10\\wpf_l10\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1289529A-3728-43DC-9201-910E1C5DF692}|WPF_L10\\WPF_L10.csproj|solutionrelative:wpf_l10\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ponya\\source\\repos\\WPF_L10\\WPF_L10.1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WPF_L10.1\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ponya\\source\\repos\\WPF_L10\\WPF_L10.1\\MainWindow.xaml",
+              "RelativeToolTip": "WPF_L10.1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-29T16:24:21.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ponya\\source\\repos\\WPF_L10\\WPF_L10.1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPF_L10.1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ponya\\source\\repos\\WPF_L10\\WPF_L10.1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WPF_L10.1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAAALAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T16:24:21.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ponya\\source\\repos\\WPF_L10\\WPF_L10\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPF_L10\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ponya\\source\\repos\\WPF_L10\\WPF_L10\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WPF_L10\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAApwH8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T15:32:24.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ponya\\source\\repos\\WPF_L10\\WPF_L10\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WPF_L10\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ponya\\source\\repos\\WPF_L10\\WPF_L10\\MainWindow.xaml",
+              "RelativeToolTip": "WPF_L10\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-29T14:48:00.465Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
