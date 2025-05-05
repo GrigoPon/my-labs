@@ -1,0 +1,3 @@
+﻿  ASD_Lab13.cpp
+C:\Users\ponya\source\repos\ASD_Lab13\ASD_Lab13\ASD_Lab13.cpp(26,21): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  ASD_Lab13.vcxproj -> C:\Users\ponya\source\repos\ASD_Lab13\x64\Debug\ASD_Lab13.exe

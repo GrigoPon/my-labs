@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ponya\\source\\repos\\ASD_Lab5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2498303A-6E17-4424-9DED-A2E64D8E04DA}|ASD_Lab5\\ASD_Lab5.vcxproj|C:\\Users\\ponya\\source\\repos\\ASD_Lab5\\ASD_Lab5\\ASD_Lab5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2498303A-6E17-4424-9DED-A2E64D8E04DA}|ASD_Lab5\\ASD_Lab5.vcxproj|solutionrelative:ASD_Lab5\\ASD_Lab5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ASD_Lab5.cpp",
+              "DocumentMoniker": "C:\\Users\\ponya\\source\\repos\\ASD_Lab5\\ASD_Lab5\\ASD_Lab5.cpp",
+              "RelativeDocumentMoniker": "ASD_Lab5\\ASD_Lab5.cpp",
+              "ToolTip": "C:\\Users\\ponya\\source\\repos\\ASD_Lab5\\ASD_Lab5\\ASD_Lab5.cpp",
+              "RelativeToolTip": "ASD_Lab5\\ASD_Lab5.cpp",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-05T00:02:07.013Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

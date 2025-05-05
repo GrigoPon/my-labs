@@ -1,0 +1,6 @@
+﻿  ASD_LAB_BOYER.cpp
+C:\Users\ponya\source\repos\ASD_LAB_BOYER\ASD_LAB_BOYER\ASD_LAB_BOYER.cpp(11,23): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ponya\source\repos\ASD_LAB_BOYER\ASD_LAB_BOYER\ASD_LAB_BOYER.cpp(22,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ponya\source\repos\ASD_LAB_BOYER\ASD_LAB_BOYER\ASD_LAB_BOYER.cpp(57,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ponya\source\repos\ASD_LAB_BOYER\ASD_LAB_BOYER\ASD_LAB_BOYER.cpp(58,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  ASD_LAB_BOYER.vcxproj -> C:\Users\ponya\source\repos\ASD_LAB_BOYER\x64\Debug\ASD_LAB_BOYER.exe
