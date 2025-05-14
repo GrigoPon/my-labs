@@ -1,0 +1,46 @@
+﻿<Window x:Class="CryptoGraphy_Project.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CryptoGraphy_Project"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Переключатель режимов -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center">
+            <RadioButton x:Name="EncodeModeRadio" Content="Кодирование" GroupName="Mode" IsChecked="True" Margin="5" Checked="ModeRadioButton_Checked"/>
+            <RadioButton x:Name="DecodeModeRadio" Content="Декодирование" GroupName="Mode" Margin="5" Checked="ModeRadioButton_Checked"/>
+        </StackPanel>
+
+        <!-- Панель кодирования -->
+        <StackPanel x:Name="EncodePanel" Grid.Row="1">
+            <Label Content="Введите сообщение:" FontWeight="Bold"/>
+            <TextBox x:Name="InputTextBox" Height="100" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" FontSize="20"/>
+        </StackPanel>
+
+        <!-- Панель декодирования -->
+        <StackPanel x:Name="DecodePanel" Grid.Row="1" Visibility="Collapsed">
+            <Button x:Name="LoadFileButton" Content="Загрузить файл с кодом Морзе" Height="30" Margin="0,5" Click="LoadFileButton_Click"/>
+        </StackPanel>
+
+        <!-- Общие элементы управления -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,10" Width="439">
+            <Button x:Name="ActionButton" Content="Закодировать" Width="108" Height="30" Click="ActionButton_Click"/>
+            <Button x:Name="SaveButton" Content="Сохранить в файл" Width="108" Height="30" Click="SaveButton_Click"/>
+            <Button x:Name="PlayButton" Content="Воспроизвести" Width="108" Height="30" Click="PlayButton_Click"/>
+            <Button x:Name="SaveSound" Content="Сохранить звук" Height="30" Width="108" Click="SaveSound_Click"/>
+        </StackPanel>
+
+        <Label Grid.Row="3" Content="Результат:" FontWeight="Bold"/>
+        <TextBox x:Name="OutputTextBox" Grid.Row="4" Height="100" TextWrapping="Wrap" IsReadOnly="True" VerticalScrollBarVisibility="Auto" FontWeight="Bold" FontSize="24"/>
+    </Grid>
+</Window>
