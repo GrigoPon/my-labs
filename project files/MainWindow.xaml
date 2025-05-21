@@ -1,0 +1,363 @@
+﻿<Window x:Class="CryptoApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Секретный шифратор" Height="500" Width="1280">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/back2.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <!-- Панель Азбуки Морзе -->
+
+        <!-- Панель Энигмы -->
+        <StackPanel Margin="10,40,952,138">
+            <Label Content="Машина Энигма" FontWeight="Bold" FontSize="16" HorizontalAlignment="Center" Foreground="White"/>
+            <StackPanel Orientation="Horizontal" Width="270">
+                <!-- Левый ротор -->
+                <Border BorderBrush="Black" BorderThickness="1" Margin="2" Padding="2">
+                    <StackPanel>
+                        <StackPanel.Background>
+                            <ImageBrush ImageSource="/back.jpg"/>
+                        </StackPanel.Background>
+                        <Label Content="Левый" HorizontalAlignment="Center" FontWeight="Bold" Foreground="White"/>
+                        <ComboBox x:Name="LeftRotorType" Width="80" Margin="0,2" SelectedIndex="0">
+                            <ComboBoxItem Content="I (ЕКМФ)"/>
+                            <ComboBoxItem Content="II (АДК)"/>
+                            <ComboBoxItem Content="III (ПОЛ)"/>
+                        </ComboBox>
+                        <Label Content="Позиция:" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="10"/>
+                        <ComboBox x:Name="LeftRotorPosition" Width="80" Margin="0,2"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- Средний ротор -->
+                <Border BorderBrush="Black" BorderThickness="1" Margin="2" Padding="2">
+                    <Border.Background>
+                        <ImageBrush ImageSource="/back.jpg"/>
+                    </Border.Background>
+                    <StackPanel>
+                        <Label Content="Средний" HorizontalAlignment="Center" FontWeight="Bold" Foreground="White"/>
+                        <ComboBox x:Name="MiddleRotorType" Width="80" Margin="0,2" SelectedIndex="1">
+                            <ComboBoxItem Content="I (ЕКМФ)"/>
+                            <ComboBoxItem Content="II (АДК)"/>
+                            <ComboBoxItem Content="III (ПОЛ)"/>
+                        </ComboBox>
+                        <Label Content="Позиция:" HorizontalAlignment="Center" FontSize="10" Foreground="White" FontWeight="Bold"/>
+                        <ComboBox x:Name="MiddleRotorPosition" Width="80" Margin="0,2"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- Правый ротор -->
+                <Border BorderBrush="Black" BorderThickness="1" Margin="2" Padding="2">
+                    <StackPanel>
+                        <StackPanel.Background>
+                            <ImageBrush ImageSource="/back.jpg"/>
+                        </StackPanel.Background>
+                        <Label Content="Правый" HorizontalAlignment="Center" FontWeight="Bold" Foreground="White"/>
+                        <ComboBox x:Name="RightRotorType" Width="80" Margin="0,2" SelectedIndex="2">
+                            <ComboBoxItem Content="I (ЕКМФ)"/>
+                            <ComboBoxItem Content="II (АДК)"/>
+                            <ComboBoxItem Content="III (ПОЛ)"/>
+                        </ComboBox>
+                        <Label Content="Позиция:" HorizontalAlignment="Center" FontSize="10" Foreground="White" FontWeight="Bold"/>
+                        <ComboBox x:Name="RightRotorPosition" Width="80" Margin="0,2"/>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+
+            <!-- Роторы -->
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10"/>
+            <Button x:Name="EnigmaRandomButton" Content="Случайные настройки" 
+                        Click="EnigmaRandomButton_Click" Height="23" Width="159" FontSize="14" FontWeight="Bold">
+                <Button.Background>
+                    <ImageBrush ImageSource="/buttons.jpg"/>
+                </Button.Background>
+            </Button>
+            <StackPanel Height="46" Width="270" Orientation="Horizontal">
+                <Button x:Name="EncodingButton" Content="РЕЖИМ Ш"  Click="EncodingButton_Click" Height="20" Width="132" FontWeight="Bold"/>
+                <Button x:Name="DecodingButton" Content="РЕЖИМ Д" Click="DecodingButton_Click" Height="20" Width="132" FontWeight="Bold"/>
+            </StackPanel>
+            <StackPanel Height="44" Width="262" Orientation="Horizontal">
+                <TextBox x:Name="RotorSetTextBox" Height="22" TextWrapping="Wrap" Text="" Width="114" Margin="20,0,0,0" KeyDown="RotorSetTextBox_KeyDown" TextChanged="RotorSetTextBox_TextChanged"/>
+                <Button x:Name="RotorSetButton" Content="Установить" Height="24" Width="95" Margin="30,0,0,0" Click="RotorSetButton_Click" FontSize="14" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/buttons.jpg"/>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel x:Name="OnScreenKeyboard" Orientation="Vertical" Margin="402,283,276,10" RenderTransformOrigin="0.5,0.5">
+            <StackPanel.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </StackPanel.RenderTransform>
+            <!-- Первая строка -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="Й" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontWeight="Bold" FontSize="16">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Ц" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="У" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontWeight="Bold" FontSize="16">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="К" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Е" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Н" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Г" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Ш" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Щ" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="З" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Х" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Ъ" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+
+            <!-- Вторая строка -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="Ф" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontWeight="Bold" FontSize="16">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Ы" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="В" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="А" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="П" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Р" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="О" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Л" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Д" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Ж" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Э" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+
+            <!-- Третья строка -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="Я" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Ч" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="С" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="М" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="И" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Т" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Ь" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Б" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Ю" Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="." Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="," Width="40" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+
+            <!-- Четвертая строка: пробел, бэкспейс -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="Пробел" Width="80" Height="40" Margin="2" Click="KeyButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="Backs"  Content="←" Width="60" Height="40" Margin="2" Click="BackspaceButton_Click" FontSize="16" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/keys2.jpg"/>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel x:Name="decodingGrid" Visibility="Visible" HorizontalAlignment="Left" Height="237" Margin="358,40,0,0" VerticalAlignment="Top" Width="690">
+            <!-- Поле вывода расшифрованного текста -->
+            <TextBox x:Name="DecryptedOutputTextBox"
+         IsReadOnly="True"
+         TextWrapping="Wrap"
+         VerticalScrollBarVisibility="Auto"
+         Margin="10"
+         Height="149"
+         FontSize="14"
+         Background="#FAFAFA"/>
+
+            <!-- Кнопки загрузки и сохранения -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10" Width="574">
+                <Button Content="Загрузить код Энигма" Width="162" Height="25" 
+            Click="LoadEnigmaCodeButton_Click" Margin="5" FontSize="14" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/buttons.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Загрузить код Морзе" Width="156" Height="25" 
+            Click="LoadMorseCodeButton_Click" Margin="5" FontSize="14" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/buttons.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Сохранить расшифрованное" Width="212" Height="25" 
+            Click="SaveDecryptedButton_Click" Margin="5" FontSize="14" FontWeight="Bold">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/buttons.jpg"/>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+        <Grid x:Name="EncodingGrid" Visibility="Collapsed" HorizontalAlignment="Left" Height="231" Margin="402,36,0,0" VerticalAlignment="Top" Width="811">
+            <Button x:Name="MorsePlayButton" Content="Воспроизвести" Margin="670,175,32,29" 
+                        Click="MorsePlayButton_Click" FontSize="14" FontWeight="Bold">
+                <Button.Background>
+                    <ImageBrush Stretch="UniformToFill" ImageSource="/buttons.jpg"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="MorseSaveButton" Content="Сохранить" Margin="417,175,279,29" 
+                        Click="MorseSaveButton_Click" FontSize="14" FontWeight="Bold">
+                <Button.Background>
+                    <ImageBrush ImageSource="/buttons.jpg"/>
+                </Button.Background>
+            </Button>
+            <Label Content="Код Морзе:" FontWeight="Bold" Margin="417,8,229,190" FontSize="16" Foreground="White"/>
+            <TextBox x:Name="MorseOutputTextBox" TextWrapping="Wrap" 
+                     IsReadOnly="True" VerticalScrollBarVisibility="Auto" FontFamily="Consolas" Margin="417,39,32,64"/>
+            <TextBox x:Name="EnigmaOutputTextBox" TextWrapping="Wrap" 
+                     IsReadOnly="True" VerticalScrollBarVisibility="Auto" FontFamily="Consolas" Margin="10,39,425,64"/>
+            <Label Content="Код Энигмы:" FontWeight="Bold" Margin="10,8,679,190" Foreground="White" FontSize="16"/>
+            <Button x:Name="EnigmaSaveButton" Content="Сохранить" Margin="10,175,603,29" 
+                        Click="EnigmaSaveButton_Click" BorderBrush="#FF5B5B5B" FontWeight="Bold" FontSize="14">
+                <Button.Background>
+                    <ImageBrush ImageSource="/buttons.jpg" Stretch="Fill"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="SaveWavButton" Content="Сохранить в wav" HorizontalAlignment="Left" Margin="537,175,0,0" VerticalAlignment="Top" Height="27" Width="121" Click="SaveWavButton_Click" FontSize="14" FontWeight="Bold">
+                <Button.Background>
+                    <ImageBrush ImageSource="/buttons.jpg"/>
+                </Button.Background>
+            </Button>
+        </Grid>
+
+    </Grid>
+</Window>
